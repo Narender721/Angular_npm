@@ -23,7 +23,7 @@ steps:
 - task: Npm@1  
   displayName: 'npm install'  
   inputs:  
-    verbose: false  
+    verbose: false 
   
 - task: Npm@1  
   displayName: Build  
